@@ -19,13 +19,14 @@ Follow the files in numbered order if you're starting from scratch, or jump stra
 
 | # | Topic | What's covered |
 |---|-------|-----------------|
-| 1 | [Git Introduction](Git_Intro.md) | The problem version control solves — building software without it, and where it breaks down | Local vs. centralized vs. distributed VCS, why Git wins, and the working directory → staging area → local repo → remote repo pipeline |
-| 2 | [Git workflow: init to push](03-git-workflow.md) | `init`, `config`, `add`, `commit`, `remote`, `push`, `pull` — plus two hands-on tasks including the non-fast-forward error and how to resolve it |
-| 4 | [Branching](04-branching.md) | What a branch is, `HEAD`, common branch types (main, feature, release, hotfix), and the core branching commands |
-| 5 | [Merging](05-merging.md) | Fast-forward vs. three-way merges, how to spot the difference, and where merge conflicts come from |
-| 6 | [Undoing changes](06-undoing-changes.md) | `reset` (`--soft` / `--mixed` / `--hard`), `checkout` / `restore`, `revert`, `cherry-pick`, and `rebase` |
-| 7 | [Additional commands](07-additional-commands.md) *(coming soon)* | |
+| 1 | [Git Introduction](01-git-intro.md) | The problem version control solves — building software without it, and where it breaks down | Local vs. centralized vs. distributed VCS, why Git wins, and the working directory → staging area → local repo → remote repo pipeline |
+| 2 | [Git workflow: init to push](02-Git-workflow.md) | `init`, `config`, `add`, `commit`, `remote`, `push`, `pull` — plus two hands-on tasks including the non-fast-forward error and how to resolve it |
+| 4 | [Branching](03-Branching.md) | What a branch is, `HEAD`, common branch types (main, feature, release, hotfix), and the core branching commands |
+| 5 | [Merging](04-Merging.md) | Fast-forward vs. three-way merges, how to spot the difference, and where merge conflicts come from |
+| 6 | [Undoing changes](05-Undoing.md) | `reset` (`--soft` / `--mixed` / `--hard`), `checkout` / `restore`, `revert`, `cherry-pick`, and `rebase` |
+| 7 | [Additional commands](06-Additional-Commands.md) |`gitignore`, `amend`, `clone`, `fork`, `tag`, `remove`, `stash` |
 
+<!--
 ## Repo structure
 
 ```
@@ -41,7 +42,7 @@ gitnotes/
 │   ├── images/                        ← concept diagrams
 │   └── screenshots/                   ← Git Bash command output, by task
 ```
-
+-->
 ## Found an error?
 
 These are personal notes, corrected and refined as I go. If you spot a mistake or think something could be explained better, feel free to open an issue or a PR.
